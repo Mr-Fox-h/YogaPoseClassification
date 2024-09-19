@@ -21,9 +21,6 @@ image_train, image_test, label_train, label_test = train_test_split(image_data['
 train_label = tf.convert_to_tensor(label_train)
 test_label = tf.convert_to_tensor(label_test)
 
-# Class names of datasets
-class_names = ['Downdog', "Goddess", "Plank", "Tree", "Warrior2"]
-
 # Transform
 ic("Transforming data")
 
