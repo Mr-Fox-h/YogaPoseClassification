@@ -24,7 +24,8 @@ This project implements a Convolutional Neural Network (CNN) for Yoga Pose Class
 
 ## Usage
 1. Prepare your dataset: Place your images in the `./datasets` directory.
-2. Run the script:
+2. The [dataset](https://www.kaggle.com/datasets/ujjwalchowdhury/yoga-pose-classification) I used.
+3. Run the script:
   ```bash
   $ python main.py
   ```
