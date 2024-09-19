@@ -1,0 +1,18 @@
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore environment files
+.env
+venv/
+
+# Ignore build and log files
+build/
+*.log
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore the dataset
+datasets/
